@@ -21,12 +21,6 @@ body {
     display: flex;
 }
 
-.logo,
-#login,
-.btn {
-    padding: 1rem 0.3rem;
-}
-
 .brd {
     border: 2px dashed black;
 }
@@ -57,14 +51,13 @@ body {
 
 /****** CSS HEADER ******/
 .header {
-    background-color: #ADD8E6;
+    background-color: #255EE9;
 }
 
-.small-nav,
-.big-nav {
-    background-color: #DAA520;
-    height: 3rem;
-    margin: 1rem 0;
+header .logo {
+    height: 25px;
+    width: 120px;
+    padding: 1rem 0;
 }
 
 .small-nav {
@@ -86,22 +79,43 @@ li {
 
 a {
     text-decoration: none;
+    color: white;
 }
 
 #login {
-    text-align: right;
+    border-radius: 30px;
+    padding: 0.5rem 1rem;
+    margin-top: 0.5rem;
+    margin-left: 13rem;
 }
 
 
 .jumbo {
-    background-color: #00008B;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
 }
 
 .content-jumbo {
-    background-color: #EE82EE;
-    min-height: 20rem;
-    width: 75%;
+    text-align: center;
+    width: 50%;
     margin: 0 auto;
+    padding: 5rem;
+}
+
+.content-jumbo p {
+    line-height: 1.5rem;
+    font-size: 14px;
+}
+
+.btn-white,
+.btn-black {
+    padding: 0.7rem;
+    border-radius: 10rem;
+}
+
+.btn-black {
+    background-color: black;
+    color: white;
 }
 
 /****** CSS MAIN ******/
