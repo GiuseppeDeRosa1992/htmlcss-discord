@@ -1,8 +1,11 @@
 /****** CSS RESET ******/
-body {
+* {
     margin:0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
     font-family: sans-serif;
     color: white;
 }
@@ -14,7 +17,7 @@ body {
 }
 
 .pdn {
-    padding: 2.5rem 0;
+    padding: 5rem 0;
 }
 
 .flex {
@@ -23,6 +26,12 @@ body {
 
 .brd {
     border: 2px dashed black;
+}
+
+p {
+    line-height: 1.5rem;
+    font-size: 14px;
+    padding: 1.5rem 0 1rem;
 }
 
 .mh-25 {
@@ -38,11 +47,11 @@ body {
 }
 
 .fb-70 {
-    flex-basis: 70%;
+    flex-basis: 60%;
 }
 
 .fb-30 {
-    flex-basis: 30%;
+    flex-basis: 40%;
 }
 
 .padding {
@@ -52,12 +61,12 @@ body {
 /****** CSS HEADER ******/
 .header {
     background-color: #255EE9;
+    padding: 2rem 0;
 }
 
 header .logo {
     height: 25px;
     width: 120px;
-    padding: 1rem 0;
 }
 
 .small-nav {
@@ -85,7 +94,6 @@ a {
 #login {
     border-radius: 30px;
     padding: 0.5rem 1rem;
-    margin-top: 0.5rem;
     margin-left: 13rem;
 }
 
@@ -102,13 +110,9 @@ a {
     padding: 5rem;
 }
 
-.content-jumbo p {
-    line-height: 1.5rem;
-    font-size: 14px;
-}
-
 .btn-white,
-.btn-black {
+.btn-black,
+.btn-blue {
     padding: 0.7rem;
     border-radius: 10rem;
 }
@@ -119,24 +123,65 @@ a {
 }
 
 /****** CSS MAIN ******/
+main > section {
+    color: black;
+}
+
+section .ta-left {
+    text-align: left;
+}
+
+section .p-left {
+    padding: 1rem 10rem 0 0;
+}
+
+section .p-right {
+    padding: 1rem 0 0 10rem;
+}
+
+
+h2 {
+    font-size: 30px;
+}
+
+section img {
+    height: 300px;
+    width: 800px;
+}
+
+section .ta-center {
+    text-align: center;
+}
+
+div.ta-center > p {
+    padding: 1rem 15rem 0;
+    margin: 0;
+}
+
+div.ta-center > img {
+    height: 500px;
+}
+
+div.ta-center > .star {
+    height: 100px;
+    width: 400px;
+}
+
+h3 {
+    padding-bottom: 2rem;
+}
+
+.btn-blue {
+    background-color: #7289DA;
+    color: white;
+}
+
 .bg-white {
     background-color: #FFFFFF;
 }
 
 .bg-gray {
     background-color: #D3D3D3;
-}
-
-.bg-azure {
-    background-color: #1E90FF;
-}
-
-.bg-rosa {
-    background-color: #FFC0CB;
-}
-
-.bg-green {
-    background-color: #228B22;
 }
 
 /****** CSS FOOTER ******/
