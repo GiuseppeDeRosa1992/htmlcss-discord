@@ -46,12 +46,20 @@ p {
     min-height: 35rem;
 }
 
-.fb-70 {
+.fb-60 {
     flex-basis: 60%;
 }
 
-.fb-30 {
+.fb-40 {
     flex-basis: 40%;
+}
+
+.fb-30 {
+    flex-basis: 30%;
+}
+
+.fb-70 {
+    flex-basis: 70%;
 }
 
 .padding {
@@ -190,25 +198,22 @@ h3 {
     background-color: #23272A;
 }
 
-.bg-magenta {
-    background-color: #F08080;
+footer .color {
+    color: #6986D7;
 }
 
-.bg-aqua {
-    background-color: #20B2AA;
+footer ul {
+    list-style-type: none;
 }
 
-.brd-white {
-    border: 2px dashed white;
+footer li {
+    padding: 1rem 0;
+    font-size: 12px;
 }
 
-div.brd-white {
+div.list-footer {
     flex-basis: calc(100% / 4);
-}
-
-.bg-aquamarine {
-    background-color: #7FFFD4;
-    margin-top: 2.5rem;
+    padding: 0 2.5rem;
 }
 
 .mh-5 {
@@ -223,8 +228,15 @@ div.center {
     align-items: center;
 }
 
-footer .logo, 
-footer .btn {
-    background-color: #FFB6C1;
-    padding: 0.3rem 0.2rem;
+.brd-top {
+    border-top: 2px solid #6986D7;
+}
+
+.brd-top div {
+    padding: 1rem 0;
+}
+
+.flag-it {
+    height: 20px;
+    width: 30px;
 }
